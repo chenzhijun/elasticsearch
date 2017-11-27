@@ -17,7 +17,7 @@ public class ESConfig {
     public TransportClient client() throws UnknownHostException {
         InetSocketTransportAddress node = new InetSocketTransportAddress(
                 InetAddress.getByName("localhost"),
-                9200
+                9300
         );
         //多集群
 //        InetSocketTransportAddress node1 = new InetSocketTransportAddress(
